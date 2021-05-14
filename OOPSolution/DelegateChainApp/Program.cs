@@ -7,6 +7,7 @@ namespace DelegateChainApp
     {
         static void Main(string[] args)
         {
+            
             FireStation station = new FireStation();
 
             ThereIsAFire fireHouse = new ThereIsAFire(station.Call119);

@@ -23,21 +23,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueTestApp", "QueueTestAp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndexerTestApp", "IndexerTestApp\IndexerTestApp.csproj", "{FA599C0B-74AC-4152-9804-7FE42CF75097}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericTestApp", "GenericTestApp\GenericTestApp.csproj", "{5FC02CB8-1660-4773-AA45-BC93F05881DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericTestApp", "GenericTestApp\GenericTestApp.csproj", "{5FC02CB8-1660-4773-AA45-BC93F05881DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericMyListApp", "GenericMyListApp\GenericMyListApp.csproj", "{414308D3-B8F6-46B1-B16C-99E861990AB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericMyListApp", "GenericMyListApp\GenericMyListApp.csproj", "{414308D3-B8F6-46B1-B16C-99E861990AB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericCollectionApp", "GenericCollectionApp\GenericCollectionApp.csproj", "{CE3FB5BA-B5B1-4E15-B2A3-167B831B6FB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericCollectionApp", "GenericCollectionApp\GenericCollectionApp.csproj", "{CE3FB5BA-B5B1-4E15-B2A3-167B831B6FB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionApp", "ExceptionApp\ExceptionApp.csproj", "{396CD52C-A803-4874-B4B0-FC10CAA3C501}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionApp", "ExceptionApp\ExceptionApp.csproj", "{396CD52C-A803-4874-B4B0-FC10CAA3C501}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateTestApp", "DelegateTestApp\DelegateTestApp.csproj", "{7D4C3670-3684-438C-A812-971FF3E26E5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateTestApp", "DelegateTestApp\DelegateTestApp.csproj", "{7D4C3670-3684-438C-A812-971FF3E26E5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateChainApp", "DelegateChainApp\DelegateChainApp.csproj", "{67AC7952-2727-434F-9836-EC3A020FA23E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateChainApp", "DelegateChainApp\DelegateChainApp.csproj", "{67AC7952-2727-434F-9836-EC3A020FA23E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHandlerTestApp", "EventHandlerTestApp\EventHandlerTestApp.csproj", "{D0B0AB2C-4D90-45CE-A6D5-87189D9B3B3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventHandlerTestApp", "EventHandlerTestApp\EventHandlerTestApp.csproj", "{D0B0AB2C-4D90-45CE-A6D5-87189D9B3B3B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHandlerCheckApp", "EventHandlerCheckApp\EventHandlerCheckApp.csproj", "{159AE735-0316-409A-96C4-7B3608E25ADF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LamdaTestApp", "LamdaTestApp\LamdaTestApp.csproj", "{FD3B5FF7-0CBA-47AE-83A9-C0359F0D8362}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqTestApp", "LinqTestApp\LinqTestApp.csproj", "{68A06810-AAB7-47E4-8223-EF69A51A329D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +121,14 @@ Global
 		{159AE735-0316-409A-96C4-7B3608E25ADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{159AE735-0316-409A-96C4-7B3608E25ADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{159AE735-0316-409A-96C4-7B3608E25ADF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD3B5FF7-0CBA-47AE-83A9-C0359F0D8362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3B5FF7-0CBA-47AE-83A9-C0359F0D8362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3B5FF7-0CBA-47AE-83A9-C0359F0D8362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3B5FF7-0CBA-47AE-83A9-C0359F0D8362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A06810-AAB7-47E4-8223-EF69A51A329D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A06810-AAB7-47E4-8223-EF69A51A329D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A06810-AAB7-47E4-8223-EF69A51A329D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A06810-AAB7-47E4-8223-EF69A51A329D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
